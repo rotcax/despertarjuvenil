@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+h2 {
+    
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+h2 {
+
+    color: #000;
+    margin-top: 0px; 
+    margin-left: 15px;
+	font: 2.7em Arial, Helvetica, sans-serif;
+}
+
+h2:hover {
+
+    color:#ec343c;
+    text-decoration: none;
+}
+
+#contenedor{
+
+	margin-top: 15px;
+}
+
+#fila{
+
+	margin-top: 25px;
+}
+
+#parrafo{
+	
+	text-align: justify;
+	font: 1.5em Arial, Helvetica, sans-serif;	
+}
+
+#lista{
+
+    text-align: justify;
+    font: 1.5em Arial, Helvetica, sans-serif;
+}
+
+#sub{
+    
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+#sub{
+
+    font: 2em Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+#sub:hover{
+
+    color:#ec343c;
+    text-decoration: none;
+}
+
+#map-container{
+
+    height: 600px;
+}

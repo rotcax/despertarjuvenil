@@ -1,0 +1,106 @@
+.activar {
+    /*transition*/
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.activar {
+    color:#333;
+}
+
+.activar:hover {
+    color:#ec343c;
+    text-decoration: none;
+}
+
+.boton {
+    /*transition*/
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+
+.boton {
+    color:white;
+}
+
+.boton:hover {
+    color:white;
+    text-decoration: none;
+}
+
+/* ========================================================================== 
+Navigation 
+========================================================================== */
+.navbar-dark {
+    background:#222222;
+    z-index: 99999;
+}
+
+.navbar-dark .activar {
+    /*color:rgb(153,160,162);*/
+    color: rgb(205, 209, 210);
+}
+
+.navbar-brand strong {
+    color:white;
+    margin-right:2px;
+}
+
+.navbar-brand:hover {
+    color:#ec343c;
+    text-decoration:none;
+}
+
+.nav>li>.activar:hover,.nav>li>.activar:focus {
+    background-color:#ec343c;
+    color: white;
+}
+
+
+/* ========================================================================== 
+footer
+========================================================================== */
+
+.content-block-dark {
+    background:#222222;
+}
+
+footer {
+    text-align:center;
+    color: rgb(205, 209, 210);
+}
+
+
+/* ========================================================================== 
+Responsive styles
+========================================================================== */
+
+@media (max-width:768px) {
+    .navbar-nav>li>a {
+        padding-top:10px;
+        padding-bottom:10px;
+        text-align:center;
+    }
+    .navbar-toggle i {
+        color:rgb(153,160,162);
+    }
+    .navbar-toggle {
+        margin-top:14px;
+    }
+    .recent-projects-title {
+        font-size:32px;
+    }
+    .blog-post {
+        margin-bottom:40px;
+    }
+    #social .hexagon {
+        margin-bottom:60px;
+    }
+    #social {
+        padding-bottom: 70px;
+    }
+}
